@@ -1,10 +1,19 @@
 .backdrop {
-    width: 793px;
-    height: 1122px;
+    width: 210mm;
+    height: 297mm;
+    padding: 2rem;
 }
 
-h1 {
-    margin: 0;
+code {
+    color: black !important;
+    font-weight: 600;
+}
+
+.my-name {
+    margin: 0 !important;
+    /* text-transform: uppercase; */
+    /* letter-spacing: 0.5rem; */
+    font-size: 20pt;
 }
 
 .everything-end {
@@ -12,23 +21,34 @@ h1 {
     flex-direction: row;
     justify-content: right;
 }
-
 .everything-center {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
-
 .everything-center-v {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
-
 .everything-start {
     display: flex;
     flex-direction: row;
     justify-content: left;
+}
+
+.button-rounded {
+    padding: 0.1rem 1rem;
+    border-radius: 1rem;
+    background-color: #cfd8dc;
+    color: black;
+}
+
+.underline {
+    text-decoration: underline;
+}
+.no-underline {
+    text-decoration: none;
 }
 
 .separator-dot {
@@ -36,4 +56,27 @@ h1 {
     height: 8px;
     background-color: black;
     border-radius: 100%;
+}
+
+.w-max-content {
+    width: max-content;
+}
+
+.card-body {
+    padding: 0.8rem !important;
+}
+
+/* ------------------------------------------------------ */
+
+.text-content {
+    font-size: 10pt;
+    line-height: normal;
+}
+
+.text-section-header {
+    font-size: 13pt;
+}
+
+.text-header {
+    font-size: 17pt;
 }
