@@ -1,0 +1,39 @@
+.backdrop {
+    width: 793px;
+    height: 1122px;
+}
+
+h1 {
+    margin: 0;
+}
+
+.everything-end {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+.everything-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.everything-center-v {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.everything-start {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.separator-dot {
+    width: 8px;
+    height: 8px;
+    background-color: black;
+    border-radius: 100%;
+}
