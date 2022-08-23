@@ -1,7 +1,7 @@
 .backdrop {
     width: 210mm;
     height: 297mm;
-    padding: 1rem   2rem;
+    padding: 1rem 2rem;
 }
 
 code {
@@ -13,7 +13,8 @@ code {
     margin: 0 !important;
     text-transform: uppercase;
     letter-spacing: 1mm;
-    font-size: 18pt;
+    font-size: 16pt;
+    font-weight: 600;
 }
 
 .everything-end {
