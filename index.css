@@ -75,7 +75,7 @@ code {
 
 .text-content {
     font-size: 10pt;
-    line-height: normal;
+    line-height: 0.99rem;
 }
 
 .text-section-header {
