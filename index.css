@@ -13,7 +13,7 @@ code {
     margin: 0 !important;
     text-transform: uppercase;
     letter-spacing: 1mm;
-    font-size: 16pt;
+    font-size: 18pt;
     font-weight: 600;
 }
 
@@ -22,16 +22,19 @@ code {
     flex-direction: row;
     justify-content: right;
 }
+
 .everything-center {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
+
 .everything-center-v {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
+
 .everything-start {
     display: flex;
     flex-direction: row;
@@ -48,6 +51,7 @@ code {
 .underline {
     text-decoration: underline;
 }
+
 .no-underline {
     text-decoration: none;
 }
@@ -70,12 +74,12 @@ code {
 /* ------------------------------------------------------ */
 
 .text-content {
-    font-size: 9pt;
+    font-size: 10pt;
     line-height: normal;
 }
 
 .text-section-header {
-    font-size: 9pt;
+    font-size: 10pt;
     background-color: #cfd8dc;
     padding: 0.3rem 0.8rem;
     border-radius: 10rem;
